@@ -2,6 +2,8 @@
 
 PandemicTracker helps to prevent lockdowns and allows you to enter stores and places without your ID.
 
+[![License](https://poser.pugx.org/talked-inc/pandemictracker/license.svg)](https://poser.pugx.org/talked-inc/pandemictracker/license.svg)
+
 ## Installation
 
 For Android please download the App from [here](https://github.com/talked-inc/pandemictracker/download/android-branch/latest/).
