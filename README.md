@@ -2,7 +2,7 @@
 
 PandemicTracker helps to prevent lockdowns and allows you to enter stores and places without your ID.
 
-[![Latest Stable Version](http://poser.pugx.org/phpunit/phpunit/v)](https://packagist.org/packages/phpunit/phpunit) [![Total Downloads](http://poser.pugx.org/phpunit/phpunit/downloads)](https://packagist.org/packages/phpunit/phpunit) [![Latest Unstable Version](http://poser.pugx.org/phpunit/phpunit/v/unstable)](https://packagist.org/packages/phpunit/phpunit) [![License](http://poser.pugx.org/phpunit/phpunit/license)](https://packagist.org/packages/phpunit/phpunit) [![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)](https://packagist.org/packages/phpunit/phpunit)
+[![Latest Stable Version](http://poser.pugx.org/talked-inc/pandemictracker/v)](https://packagist.org/packages/talked-inc/pandemictracker) [![Total Downloads](http://poser.pugx.org/talked-inc/pandemictracker/downloads)](https://packagist.org/packages/talked-inc/pandemictracker) [![Latest Unstable Version](http://poser.pugx.org/talked-inc/pandemictracker/v/unstable)](https://packagist.org/packages/talked-inc/pandemictracker) [![License](http://poser.pugx.org/talked-inc/pandemictracker/license)](https://packagist.org/packages/talked-inc/pandemictracker)
 
 ## Installation
 
