@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="shortcut icon" href="img/pc-icon.png" type="image/x-icon" />
+        <title>PandemicTracker</title>
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <!-- Navbar brand -->
+                    <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                        <img
+                            src="img/pc-logo.png"
+                            height="50"
+                            alt="Logo"
+                            loading="lazy"
+                        />
+                    </a>
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
+
+                <!-- Right elements -->
+
+                <!-- Right elements -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+        <div
+            data-draggable="true"
+            style="position: relative"
+            draggable="false"
+            class=""
+        >
+            <!----><!---->
+            <section
+                draggable="false"
+                class="overflow-hidden pt-0"
+                data-v-271253ee=""
+            >
+                <section class="mb-8">
+                    <style>
+                        .page-header {
+                            padding: 0;
+                            position: relative;
+                            overflow: hidden;
+                            display: flex;
+                            align-items: center;
+                            background-size: cover;
+                            background-position: 50%;
+                        }
+                        .oblique {
+                            transform: skewX(-10deg);
+                            overflow: hidden;
+                            width: 60%;
+                            right: -10rem;
+                            border-bottom-left-radius: 0.75rem;
+                        }
+                        .img-oblique {
+                            transform: skewX(10deg);
+                        }
+                        .img-settings {
+                            image-rendering: pixelated;
+                            filter: brightness(110%) contrast(110%)
+                                saturate(100%);
+                        }
+                        .fw-900 {
+                            font-weight: 900;
+                        }
+                    </style>
+                    <div class="page-header" style="min-height: 75vh">
+                        <div
+                            class="
+                                oblique
+                                position-absolute
+                                top-0
+                                h-100
+                                d-md-block d-none
+                                gradient-custom-10
+                            "
+                        >
+                            <div
+                                data-builder-edit="background"
+                                data-builder-name="background1"
+                                class="
+                                    img-oblique
+                                    position-absolute
+                                    fixed-top
+                                    ms-auto
+                                    h-100
+                                    img-settings
+                                "
+                                style="
+                                    z-index: 0;
+                                    background-size: cover;
+                                    background-position: 50% 50%;
+                                    background-image: url('https://mdbootstrap.com/img/Photos/new-templates/landing-page/img2.jpg');
+                                    margin-left: -4.1rem !important;
+                                    background-color: rgba(0, 0, 0, 0);
+                                "
+                                aria-controls="#picker-editor"
+                            ></div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div
+                                    class="
+                                        col-lg-6 col-md-7
+                                        d-flex
+                                        justify-content-center
+                                        flex-column
+                                    "
+                                >
+                                    <h2
+                                        class="lh-1 ls-tight fw-900 mb-1"
+                                        style="font-size: 3.75rem"
+                                        data-builder-edit="text"
+                                        data-builder-name="text1"
+                                    >
+                                        Help Us fight the Pandemic,
+                                    </h2>
+                                    <h2
+                                        class="
+                                            lh-1
+                                            ls-tight
+                                            fw-900
+                                            text-danger
+                                            mb-4
+                                        "
+                                        style="font-size: 3.75rem"
+                                        data-builder-edit="text"
+                                        data-builder-name="text2"
+                                    >
+                                        once and for all.
+                                    </h2>
+                                    <p
+                                        class="
+                                            mt-1
+                                            pe-lg-5
+                                            me-lg-5
+                                            lead
+                                            fw-normal
+                                            text-muted
+                                        "
+                                        data-builder-edit="text"
+                                        data-builder-name="text3"
+                                    >
+                                        The PandemicTracker App is designed to
+                                        help you protect yourself from the virus
+                                        and stay safe.
+                                    </p>
+                                    <div class="buttons">
+                                        <a
+                                            href="/download/"
+                                            type="button"
+                                            class="
+                                                btn btn-danger btn-lg
+                                                mt-4
+                                                me-2
+                                            "
+                                            data-builder-edit="button"
+                                            data-builder-name="button1"
+                                            aria-controls="#picker-editor"
+                                            draggable="false"
+                                            style="min-width: auto"
+                                            >Download</a
+                                        >
+                                        <a
+                                            href="#!"
+                                            type="button"
+                                            class="
+                                                btn btn-outline-danger btn-lg
+                                                mt-4
+                                            "
+                                            data-builder-edit="button"
+                                            data-builder-name="button2"
+                                            aria-controls="#picker-editor"
+                                            draggable="false"
+                                            >Read more</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <!---->
+            <section
+                draggable="false"
+                class="container pt-5"
+                data-v-271253ee=""
+            >
+                <section class="">
+                    <div class="d-flex justify-content-center">
+                        <div class="text-center" style="max-width: 700px">
+                            <p
+                                class="text-uppercase text-primary fw-bold mb-4"
+                                data-builder-edit="text"
+                                data-builder-name="text1"
+                            >
+                                FEATURES
+                            </p>
+                            <h2 class="fw-bold mb-4">Why choose us?</h2>
+                            <p class="text-muted mb-5">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.Repellendus quae aliquid iure
+                                quam itaque. Molestias harum autpossimus
+                                adipisci, illum alias impedit odit incidunt
+                                minimadolorum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row gx-lg-5">
+                        <div class="col-md-6 mb-5">
+                            <div class="d-flex align-items-start">
+                                <div class="flex-shrink-0">
+                                    <div
+                                        class="
+                                            p-3
+                                            bg-danger
+                                            rounded-4
+                                            shadow-2-strong
+                                        "
+                                    >
+                                        <i
+                                            class="
+                                                fas
+                                                fa-wifi fa-lg
+                                                text-white
+                                                fa-fw
+                                            "
+                                            data-builder-edit="icon"
+                                            data-builder-name="icon1"
+                                            aria-controls="#picker-editor"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-4">
+                                    <p
+                                        class="fw-bold mb-1"
+                                        data-builder-edit="text"
+                                        data-builder-name="text4"
+                                    >
+                                        Secure "Bit" detection
+                                    </p>
+                                    <p
+                                        class="text-muted mb-0"
+                                        data-builder-edit="text"
+                                        data-builder-name="text5"
+                                    >
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.Repellendus quae
+                                        aliquid iure quam itaque. Molestias
+                                        harum autpossimus adipisci, illum alias
+                                        impedit odit incidunt minimadolorum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <div class="d-flex align-items-start">
+                                <div class="flex-shrink-0">
+                                    <div
+                                        class="
+                                            p-3
+                                            bg-danger
+                                            rounded-4
+                                            shadow-2-strong
+                                        "
+                                    >
+                                        <i
+                                            class="
+                                                fas
+                                                fa-shield-alt fa-lg
+                                                text-white
+                                                fa-fw
+                                            "
+                                            data-builder-edit="icon"
+                                            data-builder-name="icon2"
+                                            aria-controls="#picker-editor"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-4">
+                                    <p
+                                        class="fw-bold mb-1"
+                                        data-builder-edit="text"
+                                        data-builder-name="text6"
+                                    >
+                                        Open Source and privacy respecting
+                                    </p>
+                                    <p
+                                        class="text-muted mb-0"
+                                        data-builder-edit="text"
+                                        data-builder-name="text7"
+                                    >
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.Repellendus quae
+                                        aliquid iure quam itaque. Molestias
+                                        harum autpossimus adipisci, illum alias
+                                        impedit odit incidunt minimadolorum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <div class="d-flex align-items-start">
+                                <div class="flex-shrink-0">
+                                    <div
+                                        class="
+                                            p-3
+                                            bg-danger
+                                            rounded-4
+                                            shadow-2-strong
+                                        "
+                                    >
+                                        <i
+                                            class="
+                                                fas
+                                                fa-mug-hot fa-lg
+                                                text-white
+                                                fa-fw
+                                            "
+                                            data-builder-edit="icon"
+                                            data-builder-name="icon3"
+                                            aria-controls="#picker-editor"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-4">
+                                    <p
+                                        class="fw-bold mb-1"
+                                        data-builder-edit="text"
+                                        data-builder-name="text8"
+                                    >
+                                        Enter stores and places without ID
+                                    </p>
+                                    <p
+                                        class="text-muted mb-0"
+                                        data-builder-edit="text"
+                                        data-builder-name="text9"
+                                    >
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.Repellendus quae
+                                        aliquid iure quam itaque. Molestias
+                                        harum autpossimus adipisci, illum alias
+                                        impedit odit incidunt minimadolorum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <div class="d-flex align-items-start">
+                                <div class="flex-shrink-0">
+                                    <div
+                                        class="
+                                            p-3
+                                            bg-danger
+                                            rounded-4
+                                            shadow-2-strong
+                                        "
+                                    >
+                                        <i
+                                            class="
+                                                fas
+                                                fa-grin-beam fa-lg
+                                                text-white
+                                                fa-fw
+                                            "
+                                            data-builder-edit="icon"
+                                            data-builder-name="icon4"
+                                            aria-controls="#picker-editor"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-4">
+                                    <p
+                                        class="fw-bold mb-1"
+                                        data-builder-edit="text"
+                                        data-builder-name="text10"
+                                    >
+                                        COPPA / GDPR Ready
+                                    </p>
+                                    <p
+                                        class="text-muted mb-0"
+                                        data-builder-edit="text"
+                                        data-builder-name="text11"
+                                    >
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.Repellendus quae
+                                        aliquid iure quam itaque. Molestias
+                                        harum autpossimus adipisci, illum alias
+                                        impedit odit incidunt minimadolorum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section
+                draggable="false"
+                class="container pt-5"
+                data-v-271253ee=""
+            >
+                <section class="">
+                    <div
+                        class="
+                            d-block d-md-flex
+                            justify-content-between
+                            align-items-center
+                            text-center text-md-start
+                        "
+                    >
+                        <div>
+                            <h2 class="fw-bold mb-3">
+                                <span
+                                    data-builder-edit="text"
+                                    data-builder-name="text1"
+                                    >Ready to start?</span
+                                >
+                                <br /><span
+                                    class="text-primary"
+                                    data-builder-edit="text"
+                                    data-builder-name="text2"
+                                    >Download PandemicTracker today!</span
+                                >
+                            </h2>
+                        </div>
+                        <div>
+                            <a
+                                type="button"
+                                class="
+                                    btn btn-outline-danger btn-rounded
+                                    ripple-surface-primary
+                                "
+                                data-ripple-color="primary"
+                                data-builder-edit="button"
+                                data-builder-name="button1"
+                                aria-controls="#picker-editor"
+                                draggable="false"
+                                >Learn more</a
+                            >
+                            <a
+                                type="button"
+                                class="btn btn-danger btn-rounded"
+                                data-builder-edit="button"
+                                data-builder-name="button2"
+                                aria-controls="#picker-editor"
+                                draggable="false"
+                                style="min-width: auto"
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section
+                draggable="false"
+                class="container pt-5"
+                data-v-271253ee=""
+            >
+                <section class="">
+                    <div class="row">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <h2
+                                class="fw-bold mb-4"
+                                ="text"
+                                data-builder-name="text1"
+                            >
+                                Contact us
+                            </h2>
+                            <p class="text-muted mb-4">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Laudantium, modi accusantium
+                                ipsum corporis quia asperiores dolorem nisi
+                                corrupti eveniet dolores ad maiores repellendus
+                                enim autem omnis fugiat perspiciatis? Ad,
+                                veritatis.
+                            </p>
+                            <p class="text-muted mb-2">
+                                New York, 94126, United States
+                            </p>
+                            <p
+                                class="text-muted mb-2"
+                                data-builder-edit="text"
+                                data-builder-name="text4"
+                            >
+                                + 01 234 567 89
+                            </p>
+                            <p
+                                class="text-muted mb-2"
+                                data-builder-edit="text"
+                                data-builder-name="text5"
+                            >
+                                info@gmail.com
+                            </p>
+                        </div>
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <form>
+                                <div class="form-outline mb-4">
+                                    <input
+                                        type="text"
+                                        id="form4Example1"
+                                        class="form-control"
+                                    />
+                                    <label
+                                        class="form-label"
+                                        for="form4Example1"
+                                        data-builder-edit="text"
+                                        data-builder-name="text6"
+                                        style="margin-left: 0px"
+                                        >Name</label
+                                    >
+                                    <div class="form-notch">
+                                        <div
+                                            class="form-notch-leading"
+                                            style="width: 9px"
+                                        ></div>
+                                        <div
+                                            class="form-notch-middle"
+                                            style="width: 42.4px"
+                                        ></div>
+                                        <div class="form-notch-trailing"></div>
+                                    </div>
+                                </div>
+                                <div class="form-outline mb-4">
+                                    <input
+                                        type="email"
+                                        id="form4Example2"
+                                        class="form-control"
+                                    />
+                                    <label
+                                        class="form-label"
+                                        for="form4Example2"
+                                        data-builder-edit="text"
+                                        data-builder-name="text7"
+                                        style="margin-left: 0px"
+                                        >Email address</label
+                                    >
+                                    <div class="form-notch">
+                                        <div
+                                            class="form-notch-leading"
+                                            style="width: 9px"
+                                        ></div>
+                                        <div
+                                            class="form-notch-middle"
+                                            style="width: 88.8px"
+                                        ></div>
+                                        <div class="form-notch-trailing"></div>
+                                    </div>
+                                </div>
+                                <div class="form-outline mb-4">
+                                    <textarea
+                                        class="form-control"
+                                        id="form4Example3"
+                                        rows="4"
+                                    ></textarea>
+                                    <label
+                                        class="form-label"
+                                        for="form4Example3"
+                                        data-builder-edit="text"
+                                        data-builder-name="text8"
+                                        style="margin-left: 0px"
+                                        >Message</label
+                                    >
+                                    <div class="form-notch">
+                                        <div
+                                            class="form-notch-leading"
+                                            style="width: 9px"
+                                        ></div>
+                                        <div
+                                            class="form-notch-middle"
+                                            style="width: 60px"
+                                        ></div>
+                                        <div class="form-notch-trailing"></div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="
+                                        form-check
+                                        d-flex
+                                        justify-content-center
+                                        mb-4
+                                    "
+                                >
+                                    <input
+                                        class="form-check-input me-2"
+                                        type="checkbox"
+                                        value=""
+                                        id="form4Example4"
+                                        checked=""
+                                    />
+                                    <label
+                                        class="form-check-label"
+                                        for="form4Example4"
+                                        data-builder-edit="text"
+                                        data-builder-name="text9"
+                                        >Send me a copy of this message</label
+                                    >
+                                </div>
+                                <button
+                                    type="submit"
+                                    class="btn btn-primary btn-block mb-4"
+                                    data-builder-edit="button"
+                                    data-builder-name="button1"
+                                    aria-controls="#picker-editor"
+                                >
+                                    Send
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
+        <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"
+        ></script>
+    </body>
+</html>
