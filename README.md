@@ -1,4 +1,4 @@
-![pandemictracker](https://github.com/talked-inc/pandemictracker/img/pc-logo.png?raw=true)
+![pandemictracker](https://github.com/talked-inc/pandemictracker/blob/main/img/pc-logo.png?raw=true)
 
 PandemicTracker helps to prevent lockdowns and allows you to enter stores and places without your ID.
 
